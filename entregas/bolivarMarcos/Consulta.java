@@ -18,7 +18,7 @@ public class Consulta{
         return new Consulta(fecha, "Pendiente", "Pendiente", medico,paciente);
     }
 
-    public String registrarDyT(String diagnostico, Stringg tratamiento){
+    public String registrarDyT(String diagnostico, String tratamiento){
         this.diagnostico = diagnostico;
         this.tratamiento = tratamiento;
         return "Diagnostico: "+diagnostico+"; Tratamiento: "+tratamiento;
