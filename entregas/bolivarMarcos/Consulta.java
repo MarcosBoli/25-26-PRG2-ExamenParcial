@@ -14,7 +14,7 @@ public class Consulta{
         this.pAsignado = pAsignado;
     }
 
-    public consulta crearConsulta(Paciente paciente, Medico medico, String fecha){
+    public Consulta crearConsulta(Paciente paciente, Medico medico, String fecha){
         return new Consulta(fecha, "Pendiente", "Pendiente", medico,paciente);
     }
 
